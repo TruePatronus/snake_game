@@ -1,4 +1,4 @@
-*{
+body{
 	margin: 0;
 	padding: 0;
 	font-style: normal 12px fantasy;
@@ -7,9 +7,24 @@
 
 #canvas{
 	display: block;
-	margin: 30px auto;
+	float:left;
+	margin: 30px 10px 20px 50px;
 	background-color: #fff;
 	border: 3px solid #777;
 	border-radius: 10px;
 	box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
+}
+
+.score{
+	background-color: #666;
+	color:#dd5;
+	margin: 100px 10px;
+	width: 100px;
+	height: 300;
+	float:left;
+	text-align: center;
+}
+#scoreText{
+	display: :block;
+	font-size: 2em;
 }
